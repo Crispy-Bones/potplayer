@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\potplayer]
+"URL Protocol"=""
+@="PotPlayerProtocol"
+
+[HKEY_CLASSES_ROOT\potplayer\shell]
+
+[HKEY_CLASSES_ROOT\potplayer\shell\open]
+
+[HKEY_CLASSES_ROOT\potplayer\shell\open\command]
+@="wscript \"D:\\APP\\PotPlayer\\url_fix.vbs\" \"%1\""
+
